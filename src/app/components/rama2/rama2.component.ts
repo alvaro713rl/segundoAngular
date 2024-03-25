@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
 })
 export class Rama2Component {
   laRama2(): string{
-    return "la rama2"
+    let variable= "para el segundo commit de la rama 2"
+    return "la rama2"+variable;
     }
 }
